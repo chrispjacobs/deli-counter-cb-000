@@ -13,7 +13,7 @@ end
 end
 
 def take_a_number(array, name)
-  corrected_number = array.index("#{name}") + 1
+  corrected_number = array.count + 1
   array << name
   puts "Welcome, #{name}. You are number #{corrected_number} in line."
 end
