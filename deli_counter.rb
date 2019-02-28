@@ -8,7 +8,7 @@ def line(array)
       number = array.index("#{name}") + 1
       sentence_array << "#{number}. #{name} "
   end
-  sentence_array.join(" ")
+  puts sentence_array.join(" ")
 end
 end
 
