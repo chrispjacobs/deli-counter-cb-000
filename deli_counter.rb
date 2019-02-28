@@ -28,13 +28,14 @@ def now_serving(array)
 end
 
 
-sample = ["Bob", "Kelly", "George"]
-puts "Testing 'take_a_number' method:"
-take_a_number(sample, "Ralph")
-puts "The current array is: [#{sample}.]"
-puts "Testing 'line' method:"
-line(sample)
-puts "The current array is: [#{sample}.]"
-puts "Testing 'now_serving' method:"
-now_serving(sample)
-puts "The current array is: [#{sample}.]"
+# A test for this code:
+# sample = ["Bob", "Kelly", "George"]
+# puts "Testing 'take_a_number' method:"
+# take_a_number(sample, "Ralph")
+# puts "The current array is: #{sample}."
+# puts "Testing 'line' method:"
+# line(sample)
+# puts "The current array is: #{sample}."
+# puts "Testing 'now_serving' method:"
+# now_serving(sample)
+# puts "The current array is: #{sample}."
