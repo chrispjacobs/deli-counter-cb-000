@@ -7,6 +7,6 @@ def line(array)
     array.each do |name|
       number = a.index("#{name}") + 1
       sentence_array << "#{number}. #{name} "
-    end
-
-    
+  end
+  sentence_array.join(" ")
+end
