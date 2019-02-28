@@ -20,4 +20,4 @@ end
 
 
 sample = ["Bob", "Kelly", "George"]
-take_a_number("Ralph")
+take_a_number(sample, "Ralph")
