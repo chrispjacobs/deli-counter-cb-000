@@ -10,3 +10,6 @@ def line(array)
   end
   sentence_array.join(" ")
 end
+
+sample = ["Bob", "Kelly", "George"]
+puts line(sample)
