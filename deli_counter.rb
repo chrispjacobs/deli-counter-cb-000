@@ -5,7 +5,7 @@ def line(array)
     puts "The line is currently empty."
   else
     array.each do |name|
-      number = a.index("#{name}") + 1
+      number = array.index("#{name}") + 1
       sentence_array << "#{number}. #{name} "
   end
   sentence_array.join(" ")
