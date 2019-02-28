@@ -14,9 +14,10 @@ end
 
 def take_a_number(array, name)
   corrected_number = array.index("#{name}") + 1
+  array << name
   puts "Welcome, #{name}. You are number #{corrected_number} in line."
 end
 
 
 sample = ["Bob", "Kelly", "George"]
-puts line(sample)
+take_a_number("Ralph")
