@@ -6,7 +6,7 @@ def line(array)
   else
     array.each do |name|
       number = array.index("#{name}") + 1
-      sentence_array << "#{number}. #{name} "
+      sentence_array << "#{number}. #{name}"
   end
   puts sentence_array.join(" ")
 end
