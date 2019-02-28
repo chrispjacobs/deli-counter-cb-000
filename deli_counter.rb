@@ -8,5 +8,5 @@ def line(array)
       number = a.index("#{name}") + 1
       sentence_array << "#{number}. #{name} "
     end
-    
+
     
