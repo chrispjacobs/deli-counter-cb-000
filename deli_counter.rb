@@ -8,9 +8,13 @@ def line(array)
       number = array.index("#{name}") + 1
       sentence_array << "#{number}. #{name} "
   end
-  sentence_array.join(" ")
+  puts sentence_array.join(" ")
 end
 end
+
+def take_a_number(array, name)
+  corrected_number = array.index("#{name}") + 1
+  puts "Welcome, #{name}. You are number #{corrected_number} in line."
 
 sample = ["Bob", "Kelly", "George"]
 puts line(sample)
