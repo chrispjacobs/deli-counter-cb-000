@@ -18,6 +18,20 @@ def take_a_number(array, name)
   puts "Welcome, #{name}. You are number #{corrected_number} in line."
 end
 
+def now_serving(array)
+  if array.count == 0
+    puts "There is nobody waiting to be served!"
+  else
+    puts "Currently serving #{array[0]}."
+    array.shift
+  end
+end
+
 
 sample = ["Bob", "Kelly", "George"]
+puts "Testing 'take_a_number' method:"
 take_a_number(sample, "Ralph")
+puts "Testing 'line' method:"
+line(sample)
+puts "Testing 'now_serving' method:"
+now_serving(sample)
